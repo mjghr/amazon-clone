@@ -1,0 +1,76 @@
+.header {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  background-color: #131921;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  object-fit: contain;
+  width: 11rem;
+  margin: 1.8rem 2rem 0 2rem;
+}
+
+.header__nav {
+  color: white;
+  display: flex;
+}
+
+.header__search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.header__searchInput {
+  padding-right: 1rem;
+  font-size: 2rem;
+  border-radius: 2px 0 0 2px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 4rem !important;
+}
+
+.header__searchIcon {
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+  border: none;
+  height: 4rem !important;
+  width: 4rem !important;
+  padding: 6.5px;
+  background-color: #cd9042;
+}
+
+.header__nav {
+  align-items: center;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__basketCount {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header__navBasket .MuiSvgIcon-root {
+  font-size: 3.8rem;
+  margin-left: 1rem;
+}
+
+.header__navBasket {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  text-decoration: none;
+}
